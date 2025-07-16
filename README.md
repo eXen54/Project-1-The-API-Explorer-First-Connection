@@ -1,0 +1,2 @@
+API = Application Programming Interface
+An API is a set of rules that lets one software application talk to another. It's like a menu in a restaurant: you (the frontend or user) pick something, the kitchen (backend/server) prepares it, and you get the result — without needing to know how it's cooked. APIs are everywhere — weather apps, maps, Pokédex apps — all use APIs behind the scenes.

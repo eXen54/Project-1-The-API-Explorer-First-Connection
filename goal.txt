@@ -1,0 +1,9 @@
+**Project 1: The API Explorer & First Connection**
+*   **The Goal:** Fulfill your "Day 1" request perfectly: understand the API lifecycle from an external consumer to building your own simple version.
+*   **The Final Product:** A local server running a single endpoint, and a simple HTML page that fetches data from it.
+*   **Mini-Modules:**
+    1.  **Repo & Theory:** Create a Git repo. In your `README.md`, write a one-paragraph explanation of "What is an API?". **[Fundamentals: 1, 8, 10]**
+    2.  **API Investigation:** Use Postman to make a `GET` request to a public API (e.g., `https://pokeapi.co/api/v2/pokemon/ditto`). Save the request in a collection. Analyze the JSON response. **[Fundamentals: 5, 12]**
+    3.  **Backend Mock:** Create a minimal Express/Flask server. Hardcode a single route (`GET /api/user`) that returns a static JSON object like `{"name": "Alex", "id": 1}`. **[Fundamentals: 6, 7, 13, 14]**
+    4.  **Backend to Frontend:** Create a basic `index.html` file. Add a button and a JavaScript `<script>` tag. When the button is clicked, use `fetch()` to call your own `/api/user` endpoint and display the user's name on the page. You will likely hit a CORS error. **[Fundamentals: 28, 29, 33]**
+    5.  **Fixing CORS:** On your backend, install and configure a CORS middleware to allow requests from your frontend. Witness the connection succeed. **[Fundamentals: 34]**
